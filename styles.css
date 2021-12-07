@@ -1,0 +1,23 @@
+.numbers{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-auto-flow: dense;
+  max-width: 400px;
+  margin:0 auto;
+}
+
+.numberEven{
+  grid-column: 1/2;
+}
+
+.numberOdd{
+  grid-column: 2/3;
+}
+
+.even{
+  grid-column: 1/2;
+}
+
+.odd{
+  grid-column: 2/3;
+}
